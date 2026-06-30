@@ -26,7 +26,7 @@ The daily tasks I perform in my role as a service desk subject matter expert inc
 
 One day, I attempted to log in to a server that my team wasn't responsible for managing. I knew the server's IP and had a privileged account, but I had no business accessing that system. I forgot it belonged to a different team. Access was denied; the control did its job. But within a few minutes, I noticed I'd lost network access. I could still do offline tasks, but I was cut off from the internet. The failed login attempt triggered that response.
 
-This incident touches all three pillars of the CIA Triad. It highlights **confidentiality** because I attempted to cross an access boundary I wasn't authorized to, even unintentionally; that's exactly the kind of attempt confidentiality controls exist to stop. It highlights **integrity**, because had the login succeeded, there was a real risk of unintended configuration changes or tampering on a system I had no context for. And it touches **availability**, not because the server itself was affected, but because the security response cut off my own network access — a real, narrow, and self-contained availability impact, with no disruption to my team or the organization.
+This incident touches all three pillars of the CIA Triad. It highlights **confidentiality** because I attempted to cross an access boundary I wasn't authorized to, even unintentionally; that's exactly the kind of attempt confidentiality controls exist to stop. It highlights **integrity**, because had the login succeeded, there was a real risk of unintended configuration changes or tampering on a system I had no context for. And it touches **availability**, not because the server itself was affected, but because the security response cut off my own network access; a real, narrow, and self-contained availability impact, with no disruption to my team or the organization.
 
 When I whitelist websites, I help reduce exposure by making sure that only approved sites are accessible. I also support integrity by lowering the chance that users will be exposed to harmful content, and I support availability by ensuring that the filtering does not disrupt other users' work.
 
@@ -66,7 +66,7 @@ Authorization deals with the kind of access you have. For instance, you can only
 
 **Accounting**
 
-Accounting has to do with logs. Accounting is about tracking user actions; when, where, why, and how they happened. It audits user actions and keeps records of what took place.
+Accounting has to do with logs. Accounting is about tracking user actions: when, where, why, and how they happened. It audits user actions and keeps records of what took place.
 
 ## Where This Experience Points Me Next
 
