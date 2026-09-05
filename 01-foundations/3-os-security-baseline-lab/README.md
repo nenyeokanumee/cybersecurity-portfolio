@@ -1,4 +1,4 @@
-# Project 1.3 — Linux & Windows Security Baseline Lab
+# Project 1.3: Linux & Windows Security Baseline Lab
 
 **Author:** Chukwunenye Okanumee
 
