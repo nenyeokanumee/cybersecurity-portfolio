@@ -3,7 +3,9 @@
 **Author:** Chukwunenye Okanumee
 
 **Module:** TSA Cybersecurity Curriculum — Module 1: Foundations of Cybersecurity & Computing
+
 **Environment:** Ubuntu 22.04.5 LTS (VirtualBox), Windows 11 Enterprise LTSC Evaluation (VMware Workstation)
+
 **Objective:** Document default OS configurations, apply targeted security hardening, and verify each control functions as intended across two operating systems.
 
 ## Contents
