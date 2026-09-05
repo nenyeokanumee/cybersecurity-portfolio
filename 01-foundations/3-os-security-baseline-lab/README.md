@@ -1,4 +1,4 @@
-# Project 1.4 — Linux & Windows Security Baseline Lab
+# Project 1.3 — Linux & Windows Security Baseline Lab
 
 **Author:** Chukwunenye Okanumee
 **Module:** TSA Cybersecurity Curriculum — Module 1: Foundations of Cybersecurity & Computing
