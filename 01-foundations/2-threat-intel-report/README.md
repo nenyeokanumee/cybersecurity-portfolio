@@ -7,7 +7,7 @@
 
 ---
 
-## Executive Summary
+## Purpose
 
 This report analyses the 2021 Colonial Pipeline ransomware attack as a
 structured threat intelligence exercise. The objective is to demonstrate
@@ -18,9 +18,6 @@ Response roles.
 All claims are drawn from primary and credible secondary sources.
 Where facts are not confirmed in primary government documents, they are
 explicitly flagged as publicly reported.
-
-This report is in line with CIA Triad | Threat / Vulnerability / Exploit 
-framework
 
 ---
 
