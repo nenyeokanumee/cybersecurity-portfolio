@@ -1,4 +1,4 @@
-# Project 2.2: Phishing Email Analysis & Defence-in-Depth Playbook
+# Phishing Email Analysis & Defence-in-Depth Playbook
 
 ## Executive Summary
 
