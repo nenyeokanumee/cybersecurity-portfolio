@@ -35,13 +35,13 @@ Header analysis (sender IP, SPF/DKIM/DMARC verification) was out of scope for th
 
 is.gd → is.gd (HTTPS) → lihi1.cc → final destination
 
-At the time of analysis (September 2026), the shortened link no longer resolves to active phishing infrastructure. The is[.]gd redirect (originally part of a PayPal-impersonation training sample) now redirects to unrelated affiliate marketing content, consistent with shortener-link recycling/expiration over a multi-year period rather than active malicious hosting.
+At the time of analysis (September 2026), the shortened link no longer resolves to active phishing infrastructure. The is[.]gd now redirects to unrelated affiliate marketing content, consistent with shortener-link recycling/expiration over a multi-year period rather than active malicious hosting.
 
 ### Package Tracking Mail
 
 ![URLScan report showing devret.xyz failing to resolve with net::ERR_NAME_NOT_RESOLVED](screenshots/urlscan-devret-unresolved.png)
 
-URLScan.io was unable to resolve devret[.]xyz (`net::ERR_NAME_NOT_RESOLVED`), indicating the domain is no longer registered or has no active DNS record. This is consistent with the sample being retired training material rather than an active phishing campaign — the domain infrastructure has since been taken down or allowed to expire.
+URLScan.io was unable to resolve devret[.]xyz (`net::ERR_NAME_NOT_RESOLVED`), indicating the domain is no longer registered or has no active DNS record. This is consistent with the sample being retired training material rather than an active phishing campaign. The domain infrastructure has since been taken down or allowed to expire.
 
 ### Account Suspension Mail
 
@@ -57,8 +57,8 @@ The two link-based samples pointed to sites that were no longer available at the
 
 | Control Layer | Type | Control | What it would catch/stop |
 |---|---|---|---|
-| Email Gateway | Technical | Spam/phishing filtering, check sender authentication (SPF/DKIM/DMARC) | It would flag all three and move them to the spam folder. |
+| Email Gateway | Technical | Spam/phishing filtering, check sender authentication (SPF/DKIM/DMARC) | Would flag all three and move them to the spam folder. |
 | MFA | Identity control | MFA on impersonated accounts. | Reduces the damage of leaked credentials. |
 | User Awareness | Administrative | Security training on phishing mails | Would enable users to identify red flags in mails. |
 | Endpoint | Technical | Antivirus, EDR, XDR scanning of mail attachments | It would scan the PDF in Sample 3 for malicious content. |
-| SIEM Alerting | Technical and Detective | Noting inbound mail from new or low-authority domains. Alerting on outbound clicks to flagged URLs | Would reveal repeated phishing emails impersonating major brands. |
+| SIEM Alerting | Technical and Detective | Noting inbound email from new or low-authority domains. Alert on outbound clicks to flagged URLs | Would reveal repeated phishing emails impersonating major brands. |
