@@ -1,12 +1,5 @@
 # Threat Intelligence Mini-Report: The 2021 Colonial Pipeline Ransomware Attack
 
-**Project:** TSA Cybersecurity Course — Module 1, Project 1.2  
-**Category:** Threat Intelligence Analysis  
-**Framework:** CIA Triad | Threat / Vulnerability / Exploit  
-**Author:** Chukwunenye Okanumee  
-
----
-
 ## Executive Summary
 
 This report analyses the 2021 Colonial Pipeline ransomware attack as a
