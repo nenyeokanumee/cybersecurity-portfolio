@@ -52,7 +52,7 @@ Logical topology has to do with how data flows within a network. It shows you ho
 
 Data is transmitted in binary. Computers convert our commands to binary and transmit them in binary. Data can then travel in either wired media or wireless media.
 
-**Wired Media**: Here, data is encoded into electrical impulses and then transmitted through a copper cable. The cable could be either a twisted pair or a coaxial cable. It is susceptible to interference. Coaxial cables have a conductive metal shield, often aluminium foil or copper braid, that helps protect the signal from electromagnetic interference. Data can also be encoded in pulses of light. It has very high bandwidth and travels very long distances, e.g., a fibre optic cable.
+**Wired Media**: Here, data is encoded into electrical impulses and then transmitted through a copper cable. The cable could be either a twisted pair or a coaxial cable. It is susceptible to interference. Coaxial cables have a conductive metal shield, often aluminium foil or copper braid, that helps protect the signal from electromagnetic interference. Data can also be encoded in pulses of light. It has very high bandwidth and can travel very long distances, e.g., a fibre optic cable.
 
 **Wireless Media**: Wireless media uses electromagnetic waves for communication. Examples: Wi-Fi and radio.
 
@@ -82,7 +82,7 @@ The seven layers are: physical, data link, network, transport, session, presenta
 
 7.  Application Layer (User Interface): This is the user interface. This is where the user uses the software on the computer. It provides network services directly to end users. Example: HTTP, FTP. The application layer is in charge of what you see on your screen.
 
-## Popular Mnemonic to Remember OSI model: Please Do Not Throw Sausage Pizza Away
+### Popular Mnemonic to Remember OSI model: Please Do Not Throw Sausage Pizza Away
 
 ## TCP/IP
 
