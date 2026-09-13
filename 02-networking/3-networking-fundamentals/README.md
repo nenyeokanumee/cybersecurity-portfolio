@@ -24,9 +24,7 @@ Logical topology has to do with how data flows within a network. It shows you ho
 
 ## Types of Topologies
 
-Go online to see pictures of these topologies. It will make it easier for you to understand.
-
-1.  **Bus Topology**: Here, all the devices are connected to a single backbone cable. That one cable manages every device in the system. It is easy to set up, and it can work with cheap cables, so it is inexpensive. The major drawback with this topology is collisions on the backbone cable. Also, there is a single point of failure in this topology, and when this happens, the connection is ruined.
+1.  **Bus Topology**: Here, all the devices are connected to a single backbone cable. That one cable connects every device in the system. It is easy to set up, and it can work with cheap cables, so it is inexpensive. The major drawback with this topology is collisions on the backbone cable. Also, there is a single point of failure in this topology, and when this happens, the connection is ruined.
 
 2.  **Star Topology**: Here, all devices are connected to a central hub or switch. It is easy to troubleshoot, such as isolating the problem and sorting it out. The major drawback here is a single point of failure. If the switch or hub is faulty, the entire network is affected. Another drawback is cabling cost.
 
@@ -84,7 +82,7 @@ The seven layers are: physical, data link, network, transport, session, presenta
 
 7.  Application Layer (User Interface): This is the user interface. This is where the user uses the software on the computer. It provides network services directly to end users. Example: HTTP, FTP. The application layer is in charge of what you see on your screen.
 
-## Popular Mnemonic: Please Do Not Throw Sausage Pizza Away
+## Popular Mnemonic to Remember OSI model: Please Do Not Throw Sausage Pizza Away
 
 ## TCP/IP
 
@@ -201,7 +199,7 @@ Dynamic Host Configuration Protocol is a protocol that requires hosts within a n
 It uses DORA
 
 D - Discover: the client sends a discover request to a DHCP server. Like, hey server, I need an IP address.\
-O - Offer: the server replies with an offer of an available IP address\
+O - Offer: the server replies with an offer of an available IP address.\
 R - Request: the client sends an official request. Something like, I will take this IP address that you are giving to me.\
 A - Acknowledge: the server then approves the lease of the IP address
 
@@ -269,7 +267,7 @@ Example Rules:
 
 Intrusion Detection System monitors and alerts you when it notices or sees a threat. It doesn't engage with the threat; all it does is alert you when it finds a threat. It is configured using a signature-based approach (known attacks) and an anomaly-based approach (unusual patterns). IDS only detects and informs. It does not block. It logs suspicious activity.
 
-Intrusion Prevention System: An IPS would detect and block the threat in real time. It will log the report, like telling you what it saw and what it did. It is the same as an IDS, just that it has an automatic response. It drops malicious packets and blocks the attacker's IP.
+Intrusion Prevention System (IPS) would detect and block the threat in real time. It will log the report, like telling you what it saw and what it did. It is the same as an IDS, just that it has an automatic response. It drops malicious packets and blocks the attacker's IP.
 
 ## Defence Mechanism: VPN
 
@@ -301,12 +299,12 @@ Example: an attacker sends phishing mail to an organisation
 
 Here is how defence in depth works;
 
-Layer 1 Email Filtering: Blocks 90% of phishing emails automatically\
-Layer 2 Security Training: 8 trained employees recognised this threat and reported it. 2 clicked on the phishing link\
+Layer 1 Email Filtering: Blocks 90% of phishing emails automatically.\
+Layer 2 Security Training: 8 trained employees recognised this threat and reported it. 2 clicked on the phishing link.\
 Layer 3 Web Filter: Blocks malicious websites for 1. 1 was able to reach the malicious site.\
 Layer 4 Endpoint Protection: Antivirus attempts to detect and block downloaded malware. If it escapes detection, it moves to the next layer.\
 Layer 5: If malware defeats the antivirus, EDR comes in to isolate the endpoint.\
-Layer 6: Network Segmentation: Even if the malware works, it can only access that subnet\
+Layer 6: Network Segmentation: Even if the malware works, it can only access that subnet.\
 Layer 7: Backups: If ransomware encrypts files, clean backups allow recovery; no ransom payment needed.\
 Result: What targeted 100 employees results in zero data loss because of the multiple layers of defence.
 
