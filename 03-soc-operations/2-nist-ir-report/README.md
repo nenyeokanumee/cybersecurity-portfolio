@@ -1,4 +1,4 @@
-# NIST SP 800-61 Incident Response Report: Phishing-Triggered Credential Compromise — NovaBal Ltd
+# NIST SP 800-61 Incident Response Report: Phishing-Triggered Credential Compromise - NovaBal Ltd
 
 ## 1. Incident Overview
 
