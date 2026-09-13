@@ -1,10 +1,10 @@
-# Networking Fundamentals
+# NETWORKING FUNDAMENTALS
 
 A computer network is an interconnection of devices to share information and resources. Examples include the Internet, home Wi-Fi, and office LANs.
 
 Networking matters in cybersecurity because you need to understand networks and devices to protect them. Also, every security threat exploits networks and devices. When a device is online or on a network, it has a chance of being vulnerable.
 
-## TYPES OF NETWORKS
+## Types of Networks
 
 1.  PAN (Personal Area Network): Bluetooth devices connect via Bluetooth, like from a smartwatch to a phone. It has to be within a 10-metre radius.
 
@@ -14,7 +14,7 @@ Networking matters in cybersecurity because you need to understand networks and 
 
 4.  WAN (Wide Area Network): This refers to a global network. Example: the Internet.
 
-## NETWORK TOPOLOGIES
+## Network Topologies
 
 Network topology is the visual map that tells you the structure of the computer network. Here you see the exact location and path of each device on the network.
 
@@ -22,7 +22,7 @@ Physical topology refers to how you can physically see the devices connected. Yo
 
 Logical topology has to do with how data flows within a network. It shows you how packets of data move from source to destination.
 
-## TYPES OF TOPOLOGIES
+## Types of Topologies
 
 Go online to see pictures of these topologies. It will make it easier for you to understand.
 
@@ -36,7 +36,7 @@ Go online to see pictures of these topologies. It will make it easier for you to
 
 5.  **Tree/Hierarchical Topology**: This is a star of stars. It is very scalable for an enterprise. One of the cons is that it is very complex to manage.
 
-## DEVICES FOUND IN A NETWORK
+## Devices Found in a Network
 
 1.  **Hub**: It is used to connect devices. The issue is that it is slow or not intelligent enough to identify the destination of a packet, so what it does is that it broadcasts every packet of data that passes through it. This device is not currently in use in most network setups.
 
@@ -50,17 +50,17 @@ Go online to see pictures of these topologies. It will make it easier for you to
 
 6.  **Server**: This is a device that provides services or data to other devices upon request. Devices making the request are known as clients.
 
-## NETWORK MEDIA TYPES
+## Network Media Types
 
 Data is transmitted in binary. Computers convert our commands to binary and transmit them in binary. Data can then travel in either wired media or wireless media.
 
-**Wired Media**: Here, data is encoded into electrical impulses and then transmitted through a copper cable. The cable could be either a twisted pair or a coaxial cable. It is susceptible to interference. Coaxial cables have a conductive metal shield, often aluminum foil or copper braid, that helps protect the signal from electromagnetic interference. Data can also be encoded in pulses of light. It has very high bandwidth and travels very long distances, e.g., a fibre optic cable.
+**Wired Media**: Here, data is encoded into electrical impulses and then transmitted through a copper cable. The cable could be either a twisted pair or a coaxial cable. It is susceptible to interference. Coaxial cables have a conductive metal shield, often aluminium foil or copper braid, that helps protect the signal from electromagnetic interference. Data can also be encoded in pulses of light. It has very high bandwidth and travels very long distances, e.g., a fibre optic cable.
 
 **Wireless Media**: Wireless media uses electromagnetic waves for communication. Examples: Wi-Fi and radio.
 
-## NETWORK MODEL
+## Network Model
 
-The network model is a standard that all network device manufacturers follow when manufacturing a network device. It is this model that enables devices of different manufacturers to connect in a network. A Samsung printer can communicate with an HP laptop. So, any manufacturer that does not follow this model won't be able to communicate on a network. There are two major models: the OSI model and TCP/IP model.
+The network model is a standard that all network device manufacturers follow when manufacturing a network device. It is this model that enables devices of different manufacturers to connect in a network. A Samsung printer can communicate with an HP laptop. So, any manufacturer that does not follow this model won't be able to communicate on a network. There are two major models: the OSI model and the TCP/IP model.
 
 ## OSI
 
@@ -74,7 +74,7 @@ The seven layers are: physical, data link, network, transport, session, presenta
 
 2.  Data Link Layer (MAC Addressing): It has to do with local delivery, delivering data within your local network using MAC addresses. Switches work here on Layer 2.
 
-3.  Network Layer (Routing/IP addressing): Checks if the packet is something that should go outside the local network and determines the destination path. It is the routing layer that uses the IP address of the destination to find the best path to the destination.
+3.  Network Layer (Routing/IP addressing): Checks whether the packet is something that should go outside the local network and determines the destination path. It is the routing layer that uses the IP address of the destination to find the best path to the destination.
 
 4.  Transport Layer (Reliable Delivery): This layer ensures reliable data delivery. It uses port numbers. At this layer, packets of data are broken into smaller chunks and then transmitted. It uses the TCP or UDP protocol. In UDP, some packets may be missing or lost, like in calls and video games. But in TCP, no packet must be lost because it works with sensitive data; for example, banking transfers and chats. The application chooses the transport protocol; the transport layer provides the chosen protocol.
 
@@ -104,11 +104,11 @@ OSI is used for troubleshooting, while TCP/IP is how the internet actually works
 
 The raw data is moved to the application layer and then transported to the transport layer, where it adds a segment header and specifies the protocol it will use (TCP or UDP). Next, it moves to the Internet layer, where it adds the packet header that defines the IP address it will use for routing. Next, it goes to the Network Access Layer, which adds the frame header that contains the MAC address information that it needs to move; then it goes to the last layer, where it will be converted to bits. When it gets to the destination, de-encapsulation (or unwrapping) begins.
 
-## MAC ADDRESS
+## MAC Address
 
 MAC address is a 48-bit physical address embedded in the hardware. It is the device's permanent identifier. It cannot change. The first 24 bits are the manufacturer's ID, and the second 24 bits are the device identifier. No two devices have the same MAC address. MAC addresses work at layer 2 of the OSI model via a switch. MAC addresses work best within a Local Area Network. A MAC address is assigned by the device's manufacturer.
 
-## IP ADDRESS
+## IP Address
 
 Internet Protocol Address is the logical address that operates at layer 3 of the OSI model. It is assigned to every device connected to the network, and it can change. IP addresses are assigned by the ISP.
 
@@ -118,13 +118,13 @@ IPV4 is 32-bit, i.e., 4 bytes or octets. Each octet ranges from 0 to 255. There 
 
 IPV6 is 128 bits and uses hexadecimal. It most likely cannot run out.
 
-## PRIVATE VS PUBLIC IP ADDRESS
+## Private Vs Public IP Address
 
 A private IP address is used inside local networks. It is not routable on the internet but can be reused within a local network. Common ranges are 10.X.X.X, 172.16.X.X - 172.31.X.X, and 192.168.X.X.
 
 Public IP addresses are globally unique addresses assigned by ISPs or registries. It is regulated across the internet. Example 203.22.45.6.
 
-## IPV4 ADDRESS CLASSES
+## IPV4 Address Classes
 
 CLASS A: Extremely large and can accommodate approximately 16.7 million host addresses per network (2²⁴−2).
 
@@ -132,7 +132,7 @@ CLASS B: For SMEs, can host more than 65,000 host addresses
 
 CLASS C: Small or personal networks and can host a maximum of 254 hosts
 
-## SUBNETTING
+## Subnetting
 
 A subnet is a small network within a local network. It divides one big network into subsidiary networks. Every subnet has its own pool of IP addresses, and subnets cannot share IP addresses.
 
@@ -140,13 +140,13 @@ IP addresses usually have certain properties, such as the subnet mask. The subne
 
 Subnetting is important in an organisation because it helps the infrastructure be organised. It helps to reduce network congestion by limiting broadcast traffic. It helps with network segmentation too. It isolates sensitive systems from general access. It makes troubleshooting easier.
 
-## SUBNETTING FOR SECURITY
+## Subnetting for Security
 
 Subnetting creates boundaries. Traffic between subnets must pass through a router or firewall. An infrastructure without a subnet is prone to breaches. Any device on one subnet cannot navigate to another subnet; the device can only share resources within the subnet it belongs to.
 
 Organisations use subnetting to limit the scope of systems subject to PCI-DSS assessment. If segmentation is applied, PCI-DSS v4.0 mandates that this subnet must be tested twice a year to prove that it actually isolates the cardholder data environment (CDE) from the rest of the network.
 
-## NETWORK TRANSMISSION CLASSIFICATION
+## Network Transmission Classification
 
 A network is classified into three different ways: unicast, multicast, and broadcast.
 
@@ -156,7 +156,7 @@ MULTICAST: from one source to multiple destinations.
 
 BROADCAST: from one source to all devices in the network.
 
-## PORTS AND PORT NUMBERS
+## Ports and Port Numbers
 
 Ports are virtual doors that applications in a device use to communicate over a network. There are 65,535 ports per IP address. See the IP address as the building address and the port number as the flat number. Port numbers are usually attached to the IP address. Example: 192.168.9.0:80, where 80 is the port number.
 
@@ -174,21 +174,21 @@ Examples of port numbers are:
 
 6.  443 = HTTPS
 
-## NETWORK PROTOCOL
+## Network Protocol
 
-A network protocol is a set of rules that adds context to the binary data in a computer. It determines how data is formatted, transmitted, and received to ensure network communication. Examples are: communication protocols, address resolution protocols, Internet protocols, Transmission Control Protocol, User Datagram Protocol, Dynamic Host Configuration Protocol.
+A network protocol is a set of rules that adds context to the binary data in a computer. It determines how data is formatted, transmitted, and received to ensure network communication. Examples include: communication protocols, address resolution protocols, Internet protocols, Transmission Control Protocol, User Datagram Protocol, Dynamic Host Configuration Protocol.
 
-## ADDRESS RESOLUTION PROTOCOL
+## Address Resolution Protocol
 
 ARP maps a logical address to a physical address just to make sure that the packet gets to the right device. Networks know logical addresses but don't know physical addresses, so it sends an ARP request (a broadcast). So, the right device replies with its physical address. Then the MAC address is cached in an ARP table so that it won't need to send another ARP.
 
-## DOMAIN NAME SYSTEM (DNS)
+## DNS
 
-Domain Name System is the internet's phonebook. It translates human-readable domain names into IP addresses. DNS exists because humans remember names easily but computers need numbers. DNS bridges the gap so that you won't need to memorize IP addresses.
+Domain Name System (DNS) is the internet's phonebook. It translates human-readable domain names into IP addresses. DNS exists because humans remember names easily but computers need numbers. DNS bridges the gap so that you won't need to memorize IP addresses.
 
 DNS Poisoning can occur. DNS details can be corrupted, and you are directed to a different website without you even knowing. DNS is a single point of failure, so without DNS, the internet will be almost unusable.
 
-## TCP VS UDP
+## TCP Vs UDP
 
 TCP is a network protocol that provides reliable and steady transmission. It uses the TCP three-way handshake to initiate a connection. The three-way handshake is a SYN, SYN-ACK, ACK communication where the SYN is initiated or sent by the client. TCP tracks packets, so it requires a connection.
 
@@ -209,7 +209,7 @@ You can either configure the IP statically (manually), or you can use a DHCP ser
 
 NB: The router assigns an IP address within a local network. But on the internet, it is the ISP that is the DHCP server. DHCP will collect an IP address from a client when its lease expires, and the client makes another DORA request.
 
-## NETWORK THREATS
+## Network Threats
 
 These threats exploit the fundamental aspects of how the network operates.
 
@@ -237,7 +237,7 @@ In this scenario, someone is in the middle of a communication between two people
 
 The attacker positions themselves between the client and the server with the intent of relaying or modifying messages between them.
 
-## DEFENSE MECHANISM: FIREWALLS
+## Defence Mechanism: Firewalls
 
 A firewall controls the flow of data or traffic on the internet. You set rules that your firewall follows to determine the traffic it will allow or drop. The firewall filters the traffic based on rules, and it is the IT department that gets to set the rules. These rules could be to allow or deny certain IP addresses based on the port or protocols being used. For example, on a sensitive server, you can create an allow list on the server based on the IP addresses you want to access the server and then block every other unauthorised person. It also logs security events.
 
@@ -265,13 +265,13 @@ Example Rules:
 
 -   Allow SSH (22) from admin IPs only
 
-## Intrusion Detection System (IDS)/ Intrusion Prevention System (IPS)
+## Intrusion Detection System (IDS) / Intrusion Prevention System (IPS)
 
 Intrusion Detection System monitors and alerts you when it notices or sees a threat. It doesn't engage with the threat; all it does is alert you when it finds a threat. It is configured using a signature-based approach (known attacks) and an anomaly-based approach (unusual patterns). IDS only detects and informs. It does not block. It logs suspicious activity.
 
 Intrusion Prevention System: An IPS would detect and block the threat in real time. It will log the report, like telling you what it saw and what it did. It is the same as an IDS, just that it has an automatic response. It drops malicious packets and blocks the attacker's IP.
 
-## DEFENSE MECHANISM: VPN
+## Defence Mechanism: VPN
 
 Virtual Private Network (VPN) is a technology that allows connection to a different network through remote access. You need to have the client software installed and connected to the VPN server. The VPN server will authenticate the client, and a connection is established. This connection is a secure tunnel that is extremely difficult to intercept.
 
@@ -279,7 +279,7 @@ VPN hides your IP address. All traffic appears to be coming from the VPN server 
 
 Remote workers use a VPN to access the company network. It protects privacy on public WIFI. VPN bypasses geographic restrictions.
 
-## DEFENSE-IN-DEPTH STRATEGY
+## Defence-In-Depth Strategy
 
 This is a security approach that uses multiple layers of defence. If one layer fails, others continue to protect. No single defence strategy is enough on its own. These layers are
 
@@ -304,8 +304,16 @@ Here is how defence in depth works;
 Layer 1 Email Filtering: Blocks 90% of phishing emails automatically\
 Layer 2 Security Training: 8 trained employees recognised this threat and reported it. 2 clicked on the phishing link\
 Layer 3 Web Filter: Blocks malicious websites for 1. 1 was able to reach the malicious site.\
-Layer 4 Endpoint Protection: Antivirus detects and blocks downloaded malware.\
-Layer 5: If Malware defeats the antivirus, EDR comes in to isolate the endpoint.\
+Layer 4 Endpoint Protection: Antivirus attempts to detect and block downloaded malware. If it escapes detection, it moves to the next layer.\
+Layer 5: If malware defeats the antivirus, EDR comes in to isolate the endpoint.\
 Layer 6: Network Segmentation: Even if the malware works, it can only access that subnet\
 Layer 7: Backups: If ransomware encrypts files, clean backups allow recovery; no ransom payment needed.\
-Result: What targeted 100 employees results in zero data loss because of the multiple layers of defence
+Result: What targeted 100 employees results in zero data loss because of the multiple layers of defence.
+
+The first three layers were bypassed, but Layer 4 is there to stop the malware. Layers 5 - 7 are unused reserves, which is the whole point of defence-in-depth.
+
+## Conclusion
+
+Networking is the foundation of cybersecurity. Every threat discussed in this document (spoofing, sniffing, man-in-the-middle, DoS/DDoS) exploits a specific part of networking. You can't find an anomaly in a network if you do not understand the OSI layer and how it works.
+
+The defence mechanisms (firewalls, IDS/IPS, VPNs, subnetting, and defence-in-depth) discussed here should be taken seriously because no single control catches everything. It is important to understand where each one sits in the OSI model because it is what turns \"I know what a firewall is\" into \"I know when a firewall isn't enough.\"
