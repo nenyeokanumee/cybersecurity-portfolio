@@ -303,9 +303,9 @@ Layer 1 Email Filtering: Blocks 90% of phishing emails automatically.\
 Layer 2 Security Training: 8 trained employees recognised this threat and reported it. 2 clicked on the phishing link.\
 Layer 3 Web Filter: Blocks malicious websites for 1. 1 was able to reach the malicious site.\
 Layer 4 Endpoint Protection: Antivirus attempts to detect and block downloaded malware. If it escapes detection, it moves to the next layer.\
-Layer 5: If malware defeats the antivirus, EDR comes in to isolate the endpoint.\
-Layer 6: Network Segmentation: Even if the malware works, it can only access that subnet.\
-Layer 7: Backups: If ransomware encrypts files, clean backups allow recovery; no ransom payment needed.\
+Layer 5 EDR Isolation: If malware defeats the antivirus, EDR comes in to isolate the endpoint.\
+Layer 6 Network Segmentation: Even if the malware works, it can only access that subnet.\
+Layer 7 Backups: If ransomware encrypts files, clean backups allow recovery; no ransom payment needed.\
 Result: What targeted 100 employees results in zero data loss because of the multiple layers of defence.
 
 The first three layers were bypassed, but Layer 4 is there to stop the malware. Layers 5 - 7 are unused reserves, which is the whole point of defence-in-depth.
