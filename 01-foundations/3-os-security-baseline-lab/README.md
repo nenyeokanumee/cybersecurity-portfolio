@@ -16,11 +16,11 @@
 - [Windows Phase 2: Password Complexity and Delivery Optimization](#windows-phase-2-password-complexity-and-delivery-optimization)
 - [Summary](#summary)
 
-Hi there, in this article I will be taking you through a project where I built a dual-OS home lab: Ubuntu and Windows 11, side by side.
+Hi there, in this lab I will be taking you through a project where I built a dual-OS home lab: Ubuntu and Windows 11, side by side.
 
 I documented the default configuration of each, then applied real hardening steps: SSH hardening, Linux password complexity, account lockout policy, Windows password complexity.
 
-Seeing "default" vs "hardened" side by side made the gap between them click in a way reading about it never did.
+Seeing "default" vs. "hardened" side by side made the gap between them click in a way reading about it never did.
 
 This is going to be exciting. Without any waste of time, let's get started.
 
@@ -120,7 +120,7 @@ We use the nano command to open the file we want to edit. What we do here is add
 
 ### `passwd`
 
-It doesn't end there; I decided to change my password to something that does not meet these criteria, and it was rejected. It gave me only 3 attempts to try too.
+It doesn't end there; I decided to change my password to something that does not meet these criteria, and it was rejected. It gave me only 3 attempts to try, too.
 
 ![passwd rejecting a weak password](screenshots/linux-passwd-reject-weak.png)
 
@@ -143,7 +143,7 @@ Lists every local account. Equivalent of `/etc/passwd` on Linux — check for an
 ![net user Administrator](screenshots/windows-net-user-administrator-inactive.png)
 ![net user DefaultAccount](screenshots/windows-net-user-defaultaccount-inactive.png)
 
-Note from these screenshots: Guest, DefaultAccount, and Administrator are all disabled. This is a good security control, because if any were active by default, that would be a vulnerability, as unwanted persons would be able to log in to the machine.
+Note from these screenshots: Guest, DefaultAccount, and Administrator are all disabled. This is a good security control because if any were active by default, that would be a vulnerability, as unwanted persons would be able to log in to the machine.
 
 ### 2. Admin group membership: `net localgroup administrators`
 
@@ -161,7 +161,7 @@ Note: this doesn't show process names by default (Windows `netstat` needs an ext
 
 ### 4. Running services: `Get-Service | Where-Object {$_.Status -eq "Running"}`
 
-This needs PowerShell specifically, not cmd. Lists every currently active service — same concept as checking what's running on the Linux box, but Windows services are a much larger attack surface by default given how much runs out-of-box.
+This needs PowerShell specifically, not cmd. Lists every currently active service — same concept as checking what's running on the Linux box, but Windows services are a much larger attack surface by default given how much runs out-of-the-box.
 
 ![Get-Service output part 1](screenshots/windows-get-service-running-1.png)
 ![Get-Service output part 2](screenshots/windows-get-service-running-2.png)
@@ -170,7 +170,7 @@ This needs PowerShell specifically, not cmd. Lists every currently active servic
 
 **Spooler (Running)** — needed for the user to be able to print jobs. However, this service was the exploitation vector for **PrintNightmare (CVE-2021-34527)**, a real, well-known vulnerability that let attackers achieve remote code execution through the print spooler.
 
-Even a service you need for legitimate functionality still represents attack surface, and a hardening review should note it as a known historical target rather than ignore it because it's "normal."
+Even a service you need for legitimate functionality still represents an attack surface, and a hardening review should note it as a known historical target rather than ignore it because it's "normal."
 
 Also note that Windows Defender is already running. This is a good control — if it wasn't, we would need to activate it, so no action was needed for Defender.
 
@@ -182,7 +182,7 @@ Open Local Security Policy: search for it in Windows search, or use `secpol.msc`
 
 ![Local Security Policy opened](screenshots/windows-secpol-open.png)
 
-Navigate: **Security Settings → Account Policies → Account Lockout Policy**. You will see Account lockout duration, Account lockout threshold, Allow Administrator account lockout, and Reset account lockout counter after.
+Navigate: **Security Settings → Account Policies → Account Lockout Policy**. You will see Account lockout duration, Account lockout threshold, Allow Administrator account lockout, and Reset account lockout counter.
 
 ![Account Lockout Policy before hardening](screenshots/windows-account-lockout-before.png)
 
