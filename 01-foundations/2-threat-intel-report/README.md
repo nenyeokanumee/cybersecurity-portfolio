@@ -2,7 +2,7 @@
 
 **Project:** TSA Cybersecurity Course - Module 1, Project 1.2  
 **Category:** Threat Intelligence Analysis  
-**Framework:** CIA Triad | Threat / Vulnerability / Exploit  
+**Framework:** CIA Triad
 **Author:** Chukwunenye Okanumee  
 
 ---
@@ -80,7 +80,7 @@ both decryption and non-publication of stolen data.
 | Pillar | Violated? | How |
 |---|---|---|
 | Confidentiality | ✅ Yes | Data was exfiltrated before encryption |
-| Availability | ✅ Yes — primary impact | Pipeline operations shut down for approximately 6 days, contributing to fuel shortages across multiple US states |
+| Availability | ✅ Yes - primary impact | Pipeline operations shut down for approximately 6 days, contributing to fuel shortages across multiple US states |
 | Integrity | ❌ Not confirmed | No public reporting confirms that operational or pipeline-control data was altered or tampered with |
 
 The primary violations were **Confidentiality** and **Availability**.
@@ -140,11 +140,11 @@ dollars and a national fuel crisis.
 | **IT/OT network segmentation** | Full segmentation would have contained the blast radius and potentially avoided the operational shutdown entirely |
 | **Least privilege** | Limiting what any single account can access reduces the damage from a credential compromise |
 | **Incident response planning and backup testing** | A tested IR plan reduces decision-making time and recovery duration during a live incident |
-| **GRC applied to identity management** | Mandatory access reviews, account lifecycle policies, and MFA enforcement standards address the root cause at the policy level — not just the technical level |
+| **GRC applied to identity management** | Mandatory access reviews, account lifecycle policies, and MFA enforcement standards address the root cause at the policy level - not just the technical level |
 
 > **Note:** Public reporting highlights the absence of MFA and the
 > persistence of an inactive account as contributing factors. There is
-> no public confirmation that Colonial lacked a SIEM — this is
+> no public confirmation that Colonial lacked a SIEM - this is
 > deliberately excluded from the findings to avoid stating unverified
 > claims as fact.
 
@@ -164,16 +164,16 @@ missing.
 
 ## Primary Sources
 
-- **CISA/FBI Joint Cybersecurity Advisory AA21-131A — DarkSide Ransomware: Best Practices for Preventing Business Disruption from Ransomware Attacks, May 2021:**  
+- **CISA/FBI Joint Cybersecurity Advisory AA21-131A - DarkSide Ransomware: Best Practices for Preventing Business Disruption from Ransomware Attacks, May 2021:**  
   [cisa.gov/news-events/cybersecurity-advisories/aa21-131a](https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-131a)
 
-- **US Department of Energy — Colonial Pipeline Cyber Incident page:**  
+- **US Department of Energy - Colonial Pipeline Cyber Incident page:**  
   [energy.gov/ceser/colonial-pipeline-cyber-incident](https://www.energy.gov/ceser/colonial-pipeline-cyber-incident)
 
-- **House Homeland Security Committee Hearing, 9 June 2021** — sworn testimony including Mandiant CTO Charles Carmakal:  
+- **House Homeland Security Committee Hearing, 9 June 2021** - sworn testimony including Mandiant CTO Charles Carmakal:  
   Search `CHRG-117hhrg45085` on [govinfo.gov](https://www.govinfo.gov)
 
-- **SCRID — Colonial Pipeline Cyber Attack Analysis:**  
+- **SCRID - Colonial Pipeline Cyber Attack Analysis:**  
   [https://www.scribd.com/document/959800196/Cyber-Security-Assessment-2025-11-27](https://www.scribd.com/document/959800196/Cyber-Security-Assessment-2025-11-27)
 
 *This report was produced as part of the TSA Cybersecurity Scholarship. All facts are sourced from publicly available government
