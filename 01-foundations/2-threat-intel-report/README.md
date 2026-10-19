@@ -2,7 +2,7 @@
 
 **Project:** TSA Cybersecurity Course - Module 1, Project 1.2  
 **Category:** Threat Intelligence Analysis  
-**Framework:** CIA Triad | Threat / Vulnerability / Exploit  
+**Framework:** CIA Triad   
 **Author:** Chukwunenye Okanumee  
 
 ---
