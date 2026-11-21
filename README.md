@@ -16,8 +16,6 @@ This repository showcases my hands-on learning journey, practical cybersecurity 
 
 ## My Approach
 
-I believe cybersecurity is best learned through continuous practice, curiosity, and hands-on experience.
-
-This portfolio documents my projects, practical exercises, technical discoveries, and continuous growth in the cybersecurity field.
+I believe cybersecurity is best learned through continuous practice, curiosity, and hands-on experience. This portfolio documents my projects, practical exercises, technical discoveries, and continuous growth in the cybersecurity field.
 
 **Learning. Practicing. Securing.**
