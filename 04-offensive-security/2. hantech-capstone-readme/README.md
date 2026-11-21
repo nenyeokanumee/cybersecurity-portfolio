@@ -286,7 +286,7 @@ HanTech should build on the IAM, MFA, and least-privilege sections above by adop
 <td>1. Information Security Policy.</td>
 <td><p>It provides the foundation for HanTech's information security regardless of whether the information is stored electronically, printed on paper, or communicated verbally.</p>
 <p>HanTech handles some information belonging to its clients. This information is sensitive, so unauthorised access, disclosure, or alteration could affect the clients, destroy trust, and damage the organisation's reputation. This is why an information security policy is important to establish how information must be protected and whose responsibility it is to protect it.</p></td>
-<td>VUL-001 - VUL-005</td>
+<td>VUL-001 to VUL-005</td>
 </tr>
 <tr class="even">
 <td>2. Secure Development Life Cycle Policy</td>
@@ -307,7 +307,7 @@ HanTech should build on the IAM, MFA, and least-privilege sections above by adop
 <td>5. Configuration Management Policy</td>
 <td><p>HanTech’s IT system should be securely and consistently configured to prevent security weaknesses caused by insecure settings, as this can lead to system failure and create inconsistencies across its IT environment.</p>
 <p>Attackers can exploit these vulnerable ports, such as port 6200/TCP (vsftpd), port 512/TCP (Rexec), port 80/TCP (TWiki), port 3632/TCP (DistCC RCE), and port 8787/TCP (Distributed Ruby); therefore, if HanTech doesn't need any of these services, they should be disabled immediately.</p></td>
-<td>VUL-001 - VUL-005</td>
+<td>VUL-001 to VUL-005</td>
 </tr>
 <tr class="even">
 <td>6. Vulnerability Management Policy</td>
