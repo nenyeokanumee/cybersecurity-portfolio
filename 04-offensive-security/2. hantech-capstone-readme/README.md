@@ -1,6 +1,6 @@
 # From Vulnerability to Compliance: Securing Legacy and Cloud Systems at HanTech
 
-**HanTech Security Assessment Report** | Cybersecurity Capstone Project, TS Academy | Group 88
+**HanTech Security Assessment Report** | Cybersecurity Capstone Project, TS Academy
 
 Prepared for HanTech management.
 
